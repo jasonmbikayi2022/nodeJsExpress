@@ -1,0 +1,10 @@
+var jabber_user='queens';
+var jabber_server='chat.ca.libraryh3lp.com';
+var jabber_resources=[{
+ name: 'libraryh3lp',
+ priority: 5,
+ show: 'unavailable',
+ status: ''
+}];
+var jabber_client_id='JKGyFn7R70KUh9b';
+lh3cb1708334375766();
