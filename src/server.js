@@ -64,6 +64,9 @@ const create = async () => {
     // root route - serve static file
     app.get('/', (req, res) => res.sendFile(path.join(__dirname, '../public/client.html')));
 
+       // root route - serve static file
+       app.get('/webpages', (req, res) => res.sendFile(path.join(__dirname, '../QUL_LibTest.html')));
+
     // Catch errors
     app.use(utils.logErrors);
     app.use(utils.clientError404Handler);
